@@ -5,3 +5,9 @@ def square_array(array)
   end
   squared
 end
+
+array = [1,4,9]
+
+def skar_array(array)
+  array.collect do |number|
+    
