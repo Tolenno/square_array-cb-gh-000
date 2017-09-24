@@ -14,3 +14,5 @@ def skar_array(array)
   end
   puts array
 end
+
+skar_array(array)
