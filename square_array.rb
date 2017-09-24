@@ -9,7 +9,7 @@ end
 array = [1,4,9]
 
 def skar_array(array)
-  array.collect do |number|
+  array.map! do |number|
     number ** 2
   end
   puts array
