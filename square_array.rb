@@ -6,6 +6,7 @@ def square_array(array)
     square_array << number**2
   end
   return square_array
+  puts square_array
 end
 
 square_array(array)
